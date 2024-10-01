@@ -1,0 +1,57 @@
+body {
+    background-image: url("eventimg.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.counter-container {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 3px solid black
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 60px;
+    color: darkgreen;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100%;
+    max-width: 200px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkblue;
+}
+
+#save-btn {
+    background: darkgoldenrod;
+}
+
+#reset-btn {
+    background-color: darkred;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
